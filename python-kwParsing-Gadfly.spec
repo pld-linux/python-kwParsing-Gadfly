@@ -10,7 +10,7 @@ Source1:	Gadfly.pth
 Source2:	kwParsing.pth
 Source3:	sqlwhere.py
 URL:		http://www.chordate.com/kwParsing/
-Icon:		linux-python-small.gif 
+Icon:		linux-python-small.gif
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Requires:	python >= 1.5
 BuildArch:	noarch
@@ -53,7 +53,7 @@ silnik relacyjnych baz danych obs³uguj±cy SQL, zaimplementowany
 ca³kowicie w Pythonie (z opcjonalnie wbudowan± obs³ug± kjbuckets).
 
 %prep
-%setup -q -n kwP -c 
+%setup -q -n kwP -c
 cp -f %{SOURCE2} .
 cp -f %{SOURCE1} .
 
