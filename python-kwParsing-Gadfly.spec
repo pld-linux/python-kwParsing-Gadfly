@@ -47,55 +47,55 @@ cp $RPM_SOURCE_DIR/Gadfly.pth ./
 %build
 
 %install
-mkdir -p $RPM_BUILD_ROOT/usr/lib/python1.5/site-packages/kwParsing
-mkdir -p $RPM_BUILD_ROOT/usr/lib/python1.5/site-packages/Gadfly
+mkdir -p $RPM_BUILD_ROOT%{_libdir}/python1.5/site-packages/kwParsing
+mkdir -p $RPM_BUILD_ROOT%{_libdir}/python1.5/site-packages/Gadfly
 
-install -m644 DLispShort.py $RPM_BUILD_ROOT/usr/lib/python1.5/site-packages/kwParsing
-install -m644 DumbLispGen.py $RPM_BUILD_ROOT/usr/lib/python1.5/site-packages/kwParsing
-install -m644 idl.py $RPM_BUILD_ROOT/usr/lib/python1.5/site-packages/kwParsing
-install -m644 pygram.py $RPM_BUILD_ROOT/usr/lib/python1.5/site-packages/kwParsing
-install -m644 kjpylint.py $RPM_BUILD_ROOT/usr/lib/python1.5/site-packages/kwParsing
-install -m644 kjParseBuild.py $RPM_BUILD_ROOT/usr/lib/python1.5/site-packages/kwParsing
-install -m644 kjParser.py $RPM_BUILD_ROOT/usr/lib/python1.5/site-packages/kwParsing
-install -m644 kjSet.py $RPM_BUILD_ROOT/usr/lib/python1.5/site-packages/kwParsing
+install -m644 DLispShort.py $RPM_BUILD_ROOT%{_libdir}/python1.5/site-packages/kwParsing
+install -m644 DumbLispGen.py $RPM_BUILD_ROOT%{_libdir}/python1.5/site-packages/kwParsing
+install -m644 idl.py $RPM_BUILD_ROOT%{_libdir}/python1.5/site-packages/kwParsing
+install -m644 pygram.py $RPM_BUILD_ROOT%{_libdir}/python1.5/site-packages/kwParsing
+install -m644 kjpylint.py $RPM_BUILD_ROOT%{_libdir}/python1.5/site-packages/kwParsing
+install -m644 kjParseBuild.py $RPM_BUILD_ROOT%{_libdir}/python1.5/site-packages/kwParsing
+install -m644 kjParser.py $RPM_BUILD_ROOT%{_libdir}/python1.5/site-packages/kwParsing
+install -m644 kjSet.py $RPM_BUILD_ROOT%{_libdir}/python1.5/site-packages/kwParsing
 
-install -m644 gadfly.py $RPM_BUILD_ROOT/usr/lib/python1.5/site-packages/Gadfly
-install -m644 gfserve.py $RPM_BUILD_ROOT/usr/lib/python1.5/site-packages/Gadfly
-install -m644 gfclient.py $RPM_BUILD_ROOT/usr/lib/python1.5/site-packages/Gadfly
-install -m644 gfsocket.py $RPM_BUILD_ROOT/usr/lib/python1.5/site-packages/Gadfly
-install -m644 gfstest.py $RPM_BUILD_ROOT/usr/lib/python1.5/site-packages/Gadfly
-install -m644 gfinstall.py $RPM_BUILD_ROOT/usr/lib/python1.5/site-packages/Gadfly
-install -m644 gftest.py $RPM_BUILD_ROOT/usr/lib/python1.5/site-packages/Gadfly
-install -m644 sqlbind.py $RPM_BUILD_ROOT/usr/lib/python1.5/site-packages/Gadfly
-install -m644 sqlgen.py $RPM_BUILD_ROOT/usr/lib/python1.5/site-packages/Gadfly
-install -m644 sqlgram.py $RPM_BUILD_ROOT/usr/lib/python1.5/site-packages/Gadfly
-install -m644 sqlgtest.py $RPM_BUILD_ROOT/usr/lib/python1.5/site-packages/Gadfly
-install -m644 sqlsem.py $RPM_BUILD_ROOT/usr/lib/python1.5/site-packages/Gadfly
-install -m644 sqlmod.py $RPM_BUILD_ROOT/usr/lib/python1.5/site-packages/Gadfly
-install -m644 gfdb0.py $RPM_BUILD_ROOT/usr/lib/python1.5/site-packages/Gadfly
-install -m644 relalg.py $RPM_BUILD_ROOT/usr/lib/python1.5/site-packages/Gadfly
-install -m644 kjbuckets0.py $RPM_BUILD_ROOT/usr/lib/python1.5/site-packages/Gadfly
-install -m644 sql.mar $RPM_BUILD_ROOT/usr/lib/python1.5/site-packages/Gadfly
+install -m644 gadfly.py $RPM_BUILD_ROOT%{_libdir}/python1.5/site-packages/Gadfly
+install -m644 gfserve.py $RPM_BUILD_ROOT%{_libdir}/python1.5/site-packages/Gadfly
+install -m644 gfclient.py $RPM_BUILD_ROOT%{_libdir}/python1.5/site-packages/Gadfly
+install -m644 gfsocket.py $RPM_BUILD_ROOT%{_libdir}/python1.5/site-packages/Gadfly
+install -m644 gfstest.py $RPM_BUILD_ROOT%{_libdir}/python1.5/site-packages/Gadfly
+install -m644 gfinstall.py $RPM_BUILD_ROOT%{_libdir}/python1.5/site-packages/Gadfly
+install -m644 gftest.py $RPM_BUILD_ROOT%{_libdir}/python1.5/site-packages/Gadfly
+install -m644 sqlbind.py $RPM_BUILD_ROOT%{_libdir}/python1.5/site-packages/Gadfly
+install -m644 sqlgen.py $RPM_BUILD_ROOT%{_libdir}/python1.5/site-packages/Gadfly
+install -m644 sqlgram.py $RPM_BUILD_ROOT%{_libdir}/python1.5/site-packages/Gadfly
+install -m644 sqlgtest.py $RPM_BUILD_ROOT%{_libdir}/python1.5/site-packages/Gadfly
+install -m644 sqlsem.py $RPM_BUILD_ROOT%{_libdir}/python1.5/site-packages/Gadfly
+install -m644 sqlmod.py $RPM_BUILD_ROOT%{_libdir}/python1.5/site-packages/Gadfly
+install -m644 gfdb0.py $RPM_BUILD_ROOT%{_libdir}/python1.5/site-packages/Gadfly
+install -m644 relalg.py $RPM_BUILD_ROOT%{_libdir}/python1.5/site-packages/Gadfly
+install -m644 kjbuckets0.py $RPM_BUILD_ROOT%{_libdir}/python1.5/site-packages/Gadfly
+install -m644 sql.mar $RPM_BUILD_ROOT%{_libdir}/python1.5/site-packages/Gadfly
 
-cp $RPM_SOURCE_DIR/kwParsing.pth $RPM_BUILD_ROOT/usr/lib/python1.5/site-packages
-cp $RPM_SOURCE_DIR/Gadfly.pth $RPM_BUILD_ROOT/usr/lib/python1.5/site-packages
-cp $RPM_SOURCE_DIR/sqlwhere.py $RPM_BUILD_ROOT/usr/lib/python1.5/site-packages/Gadfly
+cp $RPM_SOURCE_DIR/kwParsing.pth $RPM_BUILD_ROOT%{_libdir}/python1.5/site-packages
+cp $RPM_SOURCE_DIR/Gadfly.pth $RPM_BUILD_ROOT%{_libdir}/python1.5/site-packages
+cp $RPM_SOURCE_DIR/sqlwhere.py $RPM_BUILD_ROOT%{_libdir}/python1.5/site-packages/Gadfly
 
 %postun
-rm -rf /usr/lib/python1.5/site-packages/kwParsing
+rm -rf %{_libdir}/python1.5/site-packages/kwParsing
 
 %postun -n python-Gadfly
-rm -rf /usr/lib/python1.5/site-packages/Gadfly
+rm -rf %{_libdir}/python1.5/site-packages/Gadfly
 
 %clean
 rm -rf $RPM_BUILD_ROOT
 
 %files
 %doc COPYRIGHT kwParsing.html server.html
-/usr/lib/python1.5/site-packages/kwParsing
-/usr/lib/python1.5/site-packages/kwParsing.pth
+%{_libdir}/python1.5/site-packages/kwParsing
+%{_libdir}/python1.5/site-packages/kwParsing.pth
 
 %files -n python-Gadfly
 %doc gadfly.html gfSQL.html gfrecover.html index.html gffaq.html gadfly.JPG
-/usr/lib/python1.5/site-packages/Gadfly
-/usr/lib/python1.5/site-packages/Gadfly.pth
+%{_libdir}/python1.5/site-packages/Gadfly
+%{_libdir}/python1.5/site-packages/Gadfly.pth
