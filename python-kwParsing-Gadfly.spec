@@ -10,7 +10,7 @@ Source1: Gadfly.pth
 Source2: kwParsing.pth
 Source3: sqlwhere.py
 Icon: linux-python-small.gif 
-BuildRoot: /tmp/py-root
+BuildRoot:	/tmp/%{name}-%{version}-root
 Requires: python >= 1.5
 Provides: python-kwParsing
 BuildArchitectures: noarch
