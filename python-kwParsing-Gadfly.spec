@@ -15,8 +15,6 @@ Requires: python >= 1.5
 Provides: python-kwParsing
 BuildArchitectures: noarch
 
-%changelog
-
 %description
 kwParser is a parser generator for Python. It transforms an abstract
 specification of a language grammar (for example the CORBA Interface
