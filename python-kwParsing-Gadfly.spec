@@ -92,8 +92,6 @@ install %{SOURCE2} $RPM_BUILD_ROOT%{_libdir}/python1.5/site-packages
 install %{SOURCE1} $RPM_BUILD_ROOT%{_libdir}/python1.5/site-packages
 install %{SOURCE3} $RPM_BUILD_ROOT%{_libdir}/python1.5/site-packages/Gadfly
 
-gzip -9nf COPYRIGHT
-
 %clean
 rm -rf $RPM_BUILD_ROOT
 
@@ -105,7 +103,7 @@ rm -rf %{_libdir}/python1.5/site-packages/Gadfly
 
 %files
 %defattr(644,root,root,755)
-%doc COPYRIGHT.gz kwParsing.html server.html
+%doc COPYRIGHT kwParsing.html server.html
 %{_libdir}/python1.5/site-packages/kwParsing
 %{_libdir}/python1.5/site-packages/kwParsing.pth
 
