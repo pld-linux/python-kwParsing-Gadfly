@@ -38,7 +38,8 @@ Summary:	Python SQL Database Engine
 Summary(pl):	Silnik baz danych SQL w Pythonie
 Group:		Development/Languages/Python
 Icon:		linux-python2-small.gif
-Requires:	python, python-kwParsing
+Requires:	python
+Requires:	python-kwParsing
 BuildArch:	noarch
 
 %description -n python-Gadfly
