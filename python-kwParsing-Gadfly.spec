@@ -5,8 +5,6 @@ Version:	1.0
 Release:	1
 License:	distributable
 Group:		Development/Languages/Python
-Group(de):	Entwicklung/Sprachen/Python
-Group(pl):	Programowanie/Jêzyki/Python
 Source0:	http://www.chordate.com/kwParsing/kwP.tar.gz
 Source1:	Gadfly.pth
 Source2:	kwParsing.pth
@@ -39,8 +37,6 @@ interfejsem CORBA.
 Summary:	Python SQL Database Engine
 Summary(pl):	Silnik baz danych SQL w Pythonie
 Group:		Development/Languages/Python
-Group(de):	Entwicklung/Sprachen/Python
-Group(pl):	Programowanie/Jêzyki/Python
 Icon:		linux-python2-small.gif
 Requires:	python, python-kwParsing
 BuildArch:	noarch
