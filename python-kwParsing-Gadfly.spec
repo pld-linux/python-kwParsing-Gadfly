@@ -10,7 +10,6 @@ Source1:	Gadfly.pth
 Source2:	kwParsing.pth
 Source3:	sqlwhere.py
 URL:		http://www.chordate.com/kwParsing/
-Icon:		linux-python-small.gif
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Requires:	python >= 1.5
 BuildArch:	noarch
@@ -37,7 +36,6 @@ interfejsem CORBA.
 Summary:	Python SQL Database Engine
 Summary(pl):	Silnik baz danych SQL w Pythonie
 Group:		Development/Languages/Python
-Icon:		linux-python2-small.gif
 Requires:	python
 Requires:	python-kwParsing
 BuildArch:	noarch
