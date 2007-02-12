@@ -1,5 +1,5 @@
 Summary:	Parser generator
-Summary(pl):	Generator parserów
+Summary(pl.UTF-8):   Generator parserÃ³w
 Name:		python-kwParsing
 Version:	1.0
 Release:	1
@@ -23,18 +23,18 @@ interpreter. In the case of CORBA IDL a python program using kwParser
 could generate stubs and support code (in Python or some other
 language) to talk to a CORBA interface.
 
-%description -l pl
-kwParser to generator parserów dla Pythona. Przerabia abstrakcyjn±
-specyfikacjê gramatyki jêzyka (np. w CORBA Interface Definition
-Language) wraz z "funkcjami interpretacji" definiuj±cymi semantykê
-jêzyka na kompilator, translator lub interpreter. W przypadku CORBA
-IDL program w Pythonie u¿ywaj±cy modu³u kwParser mo¿e generowaæ kod
-wspieraj±cy (w Pythonie lub innym jêzyku) do porozumiewania z
+%description -l pl.UTF-8
+kwParser to generator parserÃ³w dla Pythona. Przerabia abstrakcyjnÄ…
+specyfikacjÄ™ gramatyki jÄ™zyka (np. w CORBA Interface Definition
+Language) wraz z "funkcjami interpretacji" definiujÄ…cymi semantykÄ™
+jÄ™zyka na kompilator, translator lub interpreter. W przypadku CORBA
+IDL program w Pythonie uÅ¼ywajÄ…cy moduÅ‚u kwParser moÅ¼e generowaÄ‡ kod
+wspierajÄ…cy (w Pythonie lub innym jÄ™zyku) do porozumiewania z
 interfejsem CORBA.
 
 %package -n python-Gadfly
 Summary:	Python SQL Database Engine
-Summary(pl):	Silnik baz danych SQL w Pythonie
+Summary(pl.UTF-8):   Silnik baz danych SQL w Pythonie
 Group:		Development/Languages/Python
 Requires:	python
 Requires:	python-kwParsing
@@ -46,10 +46,10 @@ relational database query engine that supports the Structured Query
 Language (SQL), implemented entirely in Python (with optional builtin
 support from the kjbuckets builtin data structure accelerator).
 
-%description -n python-Gadfly -l pl
+%description -n python-Gadfly -l pl.UTF-8
 To podstawowe pliki silnika bazodanowego SQL o nazwie Gadfly. Jest to
-silnik relacyjnych baz danych obs³uguj±cy SQL, zaimplementowany
-ca³kowicie w Pythonie (z opcjonalnie wbudowan± obs³ug± kjbuckets).
+silnik relacyjnych baz danych obsÅ‚ugujÄ…cy SQL, zaimplementowany
+caÅ‚kowicie w Pythonie (z opcjonalnie wbudowanÄ… obsÅ‚ugÄ… kjbuckets).
 
 %prep
 %setup -q -n kwP -c
