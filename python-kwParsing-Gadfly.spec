@@ -1,5 +1,5 @@
 Summary:	Parser generator
-Summary(pl.UTF-8):   Generator parserów
+Summary(pl.UTF-8):	Generator parserów
 Name:		python-kwParsing
 Version:	1.0
 Release:	1
@@ -34,7 +34,7 @@ interfejsem CORBA.
 
 %package -n python-Gadfly
 Summary:	Python SQL Database Engine
-Summary(pl.UTF-8):   Silnik baz danych SQL w Pythonie
+Summary(pl.UTF-8):	Silnik baz danych SQL w Pythonie
 Group:		Development/Languages/Python
 Requires:	python
 Requires:	python-kwParsing
