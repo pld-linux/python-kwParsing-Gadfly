@@ -10,9 +10,9 @@ Source1:	Gadfly.pth
 Source2:	kwParsing.pth
 Source3:	sqlwhere.py
 URL:		http://www.chordate.com/kwParsing/
-BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Requires:	python >= 1.5
 BuildArch:	noarch
+BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 kwParser is a parser generator for Python. It transforms an abstract
@@ -38,7 +38,6 @@ Summary(pl.UTF-8):	Silnik baz danych SQL w Pythonie
 Group:		Development/Languages/Python
 Requires:	python
 Requires:	python-kwParsing
-BuildArch:	noarch
 
 %description -n python-Gadfly
 These are the core files to the Gadfly SQL database engine (beta). A
